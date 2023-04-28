@@ -37,7 +37,7 @@ function App() {
 
   const fetchStockPrice = async (symbol) => {
     try {
-      const response = await fetch(`https://kyles-chatbot.herokuapp.com/api/stock/${symbol}`);
+      const response = await fetch(`https://kyles-chatbot-node.herokuapp.com/api/stock/${symbol}`);
       const data = await response.json();
       if (data.error) {
         setChatbotResponse(`Error: ${data.error}`);
