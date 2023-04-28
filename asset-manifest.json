@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Goobber33/Chabot/static/css/main.a6048937.css",
-    "main.js": "/Goobber33/Chabot/static/js/main.f522cc43.js",
-    "static/js/787.8fb4aeac.chunk.js": "/Goobber33/Chabot/static/js/787.8fb4aeac.chunk.js",
-    "index.html": "/Goobber33/Chabot/index.html",
-    "main.a6048937.css.map": "/Goobber33/Chabot/static/css/main.a6048937.css.map",
-    "main.f522cc43.js.map": "/Goobber33/Chabot/static/js/main.f522cc43.js.map",
-    "787.8fb4aeac.chunk.js.map": "/Goobber33/Chabot/static/js/787.8fb4aeac.chunk.js.map"
+    "main.css": "/Chabot/static/css/main.a6048937.css",
+    "main.js": "/Chabot/static/js/main.2c4b4af4.js",
+    "static/js/787.8fb4aeac.chunk.js": "/Chabot/static/js/787.8fb4aeac.chunk.js",
+    "index.html": "/Chabot/index.html",
+    "main.a6048937.css.map": "/Chabot/static/css/main.a6048937.css.map",
+    "main.2c4b4af4.js.map": "/Chabot/static/js/main.2c4b4af4.js.map",
+    "787.8fb4aeac.chunk.js.map": "/Chabot/static/js/787.8fb4aeac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6048937.css",
-    "static/js/main.f522cc43.js"
+    "static/js/main.2c4b4af4.js"
   ]
 }
