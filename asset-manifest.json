@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Chabot/static/css/main.a6048937.css",
-    "main.js": "/Chabot/static/js/main.2c4b4af4.js",
-    "static/js/787.8fb4aeac.chunk.js": "/Chabot/static/js/787.8fb4aeac.chunk.js",
-    "index.html": "/Chabot/index.html",
-    "main.a6048937.css.map": "/Chabot/static/css/main.a6048937.css.map",
-    "main.2c4b4af4.js.map": "/Chabot/static/js/main.2c4b4af4.js.map",
-    "787.8fb4aeac.chunk.js.map": "/Chabot/static/js/787.8fb4aeac.chunk.js.map"
+    "main.css": "./static/css/main.a6048937.css",
+    "main.js": "./static/js/main.9c1f7f9c.js",
+    "static/js/787.8fb4aeac.chunk.js": "./static/js/787.8fb4aeac.chunk.js",
+    "index.html": "./index.html",
+    "main.a6048937.css.map": "./static/css/main.a6048937.css.map",
+    "main.9c1f7f9c.js.map": "./static/js/main.9c1f7f9c.js.map",
+    "787.8fb4aeac.chunk.js.map": "./static/js/787.8fb4aeac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6048937.css",
-    "static/js/main.2c4b4af4.js"
+    "static/js/main.9c1f7f9c.js"
   ]
 }
