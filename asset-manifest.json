@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Goobber33/Chabot/static/css/main.a6048937.css",
+    "main.js": "/Goobber33/Chabot/static/js/main.f522cc43.js",
+    "static/js/787.8fb4aeac.chunk.js": "/Goobber33/Chabot/static/js/787.8fb4aeac.chunk.js",
+    "index.html": "/Goobber33/Chabot/index.html",
+    "main.a6048937.css.map": "/Goobber33/Chabot/static/css/main.a6048937.css.map",
+    "main.f522cc43.js.map": "/Goobber33/Chabot/static/js/main.f522cc43.js.map",
+    "787.8fb4aeac.chunk.js.map": "/Goobber33/Chabot/static/js/787.8fb4aeac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6048937.css",
+    "static/js/main.f522cc43.js"
+  ]
+}
