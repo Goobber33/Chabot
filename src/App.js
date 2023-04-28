@@ -35,6 +35,38 @@ function App() {
     }
   };
 
+  const fetchStockPrice = async (symbol) => {
+    try {
+      const response = await fetch(`https://kyles-chatbot.herokuapp.com/api/stock/${symbol}`);
+      const data = await response.json();
+      if (data.error) {
+        setChatbotResponse(`Error: ${data.error}`);
+      } else {
+        setChatbotResponse(`The stock price for ${data.symbol} is $${data.price}`);
+      }
+    } catch (error) {
+      setChatbotResponse('Error: Could not fetch stock price data.');
+    }
+  };
+
+  const handleMessage = async () => {
+    const message = userInput.trim();
+    if (message.length === 0) return;
+
+    setUserInput('');
+
+    if (message.toLowerCase().startsWith('stock:')) {
+      const symbol = message.slice(6).trim();
+      if (symbol) {
+        fetchStockPrice(symbol);
+      } else {
+        setChatbotResponse('Error: Please provide a valid stock symbol.');
+      }
+    } else {
+      sendMessage(message);
+    }
+  };
+
   return (
     <div className="App">
       <h1>Chatbot</h1>
@@ -44,11 +76,10 @@ function App() {
         onChange={(e) => setUserInput(e.target.value)}
         placeholder="Type your message"
       />
-      <button onClick={sendMessage}>Send</button>
+      <button onClick={handleMessage}>Send</button>
       <div>{chatbotResponse}</div>
     </div>
   );
 }
 
 export default App;
-
