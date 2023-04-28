@@ -1,14 +1,14 @@
 # Chatbot React/Python Application with OpenAI, OpenWeather, and Alpha Advantage APIs 🤖🌤️📈
 
-![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=61DAFB&logo=React&logoColor=FFFFFF&label=)
-![Python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=)
-![Node.js](https://img.shields.io/static/v1?style=for-the-badge&message=Node.js&color=339933&logo=Node.js&logoColor=FFFFFF&label=)
-![OpenAI API](https://img.shields.io/static/v1?style=for-the-badge&message=OpenAI%20API&color=1B1F23&logo=OpenAI&logoColor=FFFFFF&label=)
-![OpenWeather API](https://img.shields.io/static/v1?style=for-the-badge&message=OpenWeather%20API&color=FFA500&logo=OpenWeatherMap&logoColor=FFFFFF&label=)
-![Alpha Advantage API](https://img.shields.io/static/v1?style=for-the-badge&message=Alpha%20Advantage%20API&color=FFA500&logo=Alpha%20Advantage&logoColor=FFFFFF&label=)
-![Heroku](https://img.shields.io/static/v1?style=for-the-badge&message=Heroku&color=430098&logo=Heroku&logoColor=FFFFFF&label=)
+[![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=61DAFB&logo=React&logoColor=FFFFFF&label=)](https://reactjs.org/)
+[![Python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=)](https://www.python.org/)
+[![Node.js](https://img.shields.io/static/v1?style=for-the-badge&message=Node.js&color=339933&logo=Node.js&logoColor=FFFFFF&label=)](https://nodejs.org/)
+[![OpenAI API](https://img.shields.io/static/v1?style=for-the-badge&message=OpenAI%20API&color=1B1F23&logo=OpenAI&logoColor=FFFFFF&label=)](https://openai.com/)
+[![OpenWeather API](https://img.shields.io/static/v1?style=for-the-badge&message=OpenWeather%20API&color=FFA500&logo=OpenWeatherMap&logoColor=FFFFFF&label=)](https://openweathermap.org/)
+[![Alpha Advantage API](https://img.shields.io/static/v1?style=for-the-badge&message=Alpha%20Advantage%20API&color=FFA500&logo=Alpha%20Advantage&logoColor=FFFFFF&label=)](https://www.alphavantage.co/)
+[![Heroku](https://img.shields.io/static/v1?style=for-the-badge&message=Heroku&color=430098&logo=Heroku&logoColor=FFFFFF&label=)](https://www.heroku.com/)
 
-This is a chatbot application built using React and Python, with the OpenAI, OpenWeather, and Alpha Advantage APIs for natural language processing, weather information, and stock market data respectively. Both the Python and Node servers are hosted on Heroku, and the backend code is available at https://github.com/Goobber33/Chatbot-Back-End. The application uses OpenAI's powerful language models to provide a conversational interface that can answer a wide range of user queries, and also incorporates weather data from the OpenWeather API and stock market data from the Alpha Advantage API. ☁️📈
+This is a chatbot application built using React and Python, with the OpenAI, OpenWeather, and Alpha Advantage APIs for natural language processing, weather information, and stock market data respectively. Both the Python and Node servers are hosted on Heroku, and the backend code is available at [GitHub - Chatbot Back-End](https://github.com/Goobber33/Chatbot-Back-End). The application uses OpenAI's powerful language models to provide a conversational interface that can answer a wide range of user queries, and also incorporates weather data from the OpenWeather API and stock market data from the Alpha Advantage API. ☁️📈
 
 ## Getting Started 🚀
 
@@ -17,6 +17,8 @@ To get started with this application, you will need to have valid API keys from 
 ## Usage 📝
 
 To use the chatbot, simply launch the application and start typing your questions or queries. The chatbot will use OpenAI's API to generate responses in natural language, and can also provide weather information for a specified location using the OpenWeather API and stock market data using the Alpha Advantage API.
+
+To look up a stock, simply type "Stock: [ticker symbol]" into the chatbox. For example, to look up information on Apple Inc., the user would type "Stock: AAPL". The chatbot will then use the Alpha Advantage API to retrieve stock market data for the specified ticker symbol and provide a response with the relevant information. Note that the ticker symbol should be in all caps.
 
 ## Future Enhancements 🔮
 
