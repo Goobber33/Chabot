@@ -6,7 +6,7 @@
 ![OpenWeather API](https://img.shields.io/static/v1?style=for-the-badge&message=OpenWeather%20API&color=FFA500&logo=OpenWeatherMap&logoColor=FFFFFF&label=)
 ![Heroku](https://img.shields.io/static/v1?style=for-the-badge&message=Heroku&color=430098&logo=Heroku&logoColor=FFFFFF&label=)
 
-This is a chatbot application built using React and Python, with the OpenAI and OpenWeather APIs for natural language processing and weather information respectively. The Python server is hosted on Heroku and the backend code is available on GitHub. The application uses OpenAI's powerful language models to provide a conversational interface that can answer a wide range of user queries, and also incorporates weather data from the OpenWeather API. ☁️
+This is a chatbot application built using React and Python, with the OpenAI and OpenWeather APIs for natural language processing and weather information respectively. The Python server is hosted on Heroku and the backend code is available at https://github.com/Goobber33/Chatbot-Back-End. The application uses OpenAI's powerful language models to provide a conversational interface that can answer a wide range of user queries, and also incorporates weather data from the OpenWeather API. ☁️
 
 ## Getting Started 🚀
 
@@ -23,6 +23,10 @@ This application is a work in progress, and there are many potential enhancement
 - Adding support for multiple languages 🌍
 - Enhancing the conversational flow of the chatbot 💬
 - Integrating with other APIs and services to provide more robust functionality 🛠️
+
+## Link
+
+https://goobber33.github.io/Chabot/
 
 ## Conclusion 🎉
 
